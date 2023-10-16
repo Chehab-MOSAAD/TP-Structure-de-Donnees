@@ -1,0 +1,39 @@
+digraph RedBlackTree {
+  graph[ranksep=0.5];
+  node[shape=record];
+
+	n1 [label="{{<parent>}|1|{<left>|<right>}}"];
+	lnil1 [style=filled, fillcolor=red, label="NIL"];
+	n1:left:c -> lnil1:n [headclip=false, tailclip=false]
+	rnil1 [style=filled, fillcolor=red, label="NIL"];
+	n1:right:c -> rnil1:n [headclip=false, tailclip=false]
+	n2 [label="{{<parent>}|2|{<left>|<right>}}"];
+	n2:left:c -> n1:parent:c [headclip=false, tailclip=false]
+	n2:right:c -> n3:parent:c [headclip=false, tailclip=false]
+	n3 [label="{{<parent>}|3|{<left>|<right>}}"];
+	lnil3 [style=filled, fillcolor=red, label="NIL"];
+	n3:left:c -> lnil3:n [headclip=false, tailclip=false]
+	rnil3 [style=filled, fillcolor=red, label="NIL"];
+	n3:right:c -> rnil3:n [headclip=false, tailclip=false]
+	n4 [label="{{<parent>}|4|{<left>|<right>}}"];
+	n4:left:c -> n2:parent:c [headclip=false, tailclip=false]
+	n4:right:c -> n6:parent:c [headclip=false, tailclip=false]
+	n5 [label="{{<parent>}|5|{<left>|<right>}}"];
+	lnil5 [style=filled, fillcolor=red, label="NIL"];
+	n5:left:c -> lnil5:n [headclip=false, tailclip=false]
+	rnil5 [style=filled, fillcolor=red, label="NIL"];
+	n5:right:c -> rnil5:n [headclip=false, tailclip=false]
+	n6 [label="{{<parent>}|6|{<left>|<right>}}"];
+	n6:left:c -> n5:parent:c [headclip=false, tailclip=false]
+	n6:right:c -> n10:parent:c [headclip=false, tailclip=false]
+	n7 [label="{{<parent>}|7|{<left>|<right>}}"];
+	lnil7 [style=filled, fillcolor=red, label="NIL"];
+	n7:left:c -> lnil7:n [headclip=false, tailclip=false]
+	rnil7 [style=filled, fillcolor=red, label="NIL"];
+	n7:right:c -> rnil7:n [headclip=false, tailclip=false]
+	n10 [label="{{<parent>}|10|{<left>|<right>}}"];
+	n10:left:c -> n7:parent:c [headclip=false, tailclip=false]
+	rnil10 [style=filled, fillcolor=red, label="NIL"];
+	n10:right:c -> rnil10:n [headclip=false, tailclip=false]
+
+}
