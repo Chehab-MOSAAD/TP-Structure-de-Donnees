@@ -1,1 +1,6 @@
 # TP-Structure-de-Donnees
+- The objective of the TP1 is to write a program to evaluate a set of expressions arithmetic provided in the form of a string of characters in infinite notation.
+- The objective of the TP2 is to write a collection management module according to the specication of a List and to implement this type of specication in using a double-chained internal list representation with sentinel. In addition, to extend the functionality offered by the implementation of this Abstract Type given in providing a function for applying any operator to an element of the list. 
+- The objective of the TP3 is to program and compare, in terms of complexity and performance, dictionary operations (insert, search, delete) on a linear data structure of the double-chained List. The purpose is to implement the probabilistic linear structure SkipList corresponding to the functional description given in the section.
+- The objective of the TP4 is to program the binary search tree management module and visualize it using the dot tool of the graphviz software suite.
+- The objective of the TP5 and TP6 is to program the Red-Black Trees Management Module, Balanced Binary Search Trees, and to perform the visualization of them.
